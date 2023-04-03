@@ -4071,3 +4071,48 @@ keywords = {Electrophysiology, Neuromodulation, Cognition, Neural oscillations, 
   year={2011},
   publisher={Elsevier}
 }
+
+@article{FrassleLR17,
+	abstract = {The development of large-scale network models that infer the effective (directed) connectivity among neuronal populations from neuroimaging data represents a key challenge for computational neuroscience. Dynamic causal models (DCMs) of neuroimaging and electrophysiological data are frequently used for inferring effective connectivity but are presently restricted to small graphs (typically up to 10 regions) in order to keep model inversion computationally feasible. Here, we present a novel variant of DCM for functional magnetic resonance imaging (fMRI) data that is suited to assess effective connectivity in large (whole-brain) networks. The approach rests on translating a linear DCM into the frequency domain and reformulating it as a special case of Bayesian linear regression. This paper derives regression DCM (rDCM) in detail and presents a variational Bayesian inversion method that enables extremely fast inference and accelerates model inversion by several orders of magnitude compared to classical DCM. Using both simulated and empirical data, we demonstrate the face validity of rDCM under different settings of signal-to-noise ratio (SNR) and repetition time (TR) of fMRI data. In particular, we assess the potential utility of rDCM as a tool for whole-brain connectomics by challenging it to infer effective connection strengths in a simulated whole-brain network comprising 66 regions and 300 free parameters. Our results indicate that rDCM represents a computationally highly efficient approach with promising potential for inferring whole-brain connectivity from individual fMRI data.},
+	author = {Stefan Fr{\"a}ssle and Ekaterina I. Lomakina and Adeel Razi and Karl J. Friston and Joachim M. Buhmann and Klaas E. Stephan},
+	date-added = {2023-04-03 11:56:57 -0400},
+	date-modified = {2023-04-03 11:56:57 -0400},
+	doi = {https://doi.org/10.1016/j.neuroimage.2017.02.090},
+	issn = {1053-8119},
+	journal = {NeuroImage},
+	keywords = {Bayesian regression, Dynamic causal modeling, Variational Bayes, Generative model, Effective connectivity, Connectomics},
+	pages = {406-421},
+	title = {Regression DCM for fMRI},
+	url = {https://www.sciencedirect.com/science/article/pii/S105381191730201X},
+	volume = {155},
+	year = {2017},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S105381191730201X},
+	bdsk-url-2 = {https://doi.org/10.1016/j.neuroimage.2017.02.090}
+}
+
+@article{RajCX20,
+author = {Raj, Ashish and Cai, Chang and Xie, Xihe and Palacios, Eva and Owen, Julia and Mukherjee, Pratik and Nagarajan, Srikantan},
+title = {Spectral graph theory of brain oscillations},
+journal = {Human Brain Mapping},
+volume = {41},
+number = {11},
+pages = {2980-2998},
+keywords = {alpha rhythm, brain activity, connectomes, magnetoencephalography, spectral graph theory},
+doi = {https://doi.org/10.1002/hbm.24991},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.24991},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.24991},
+abstract = {Abstract The relationship between the brain's structural wiring and the functional patterns of neural activity is of fundamental interest in computational neuroscience. We examine a hierarchical, linear graph spectral model of brain activity at mesoscopic and macroscopic scales. The model formulation yields an elegant closed-form solution for the structure–function problem, specified by the graph spectrum of the structural connectome's Laplacian, with simple, universal rules of dynamics specified by a minimal set of global parameters. The resulting parsimonious and analytical solution stands in contrast to complex numerical simulations of high dimensional coupled nonlinear neural field models. This spectral graph model accurately predicts spatial and spectral features of neural oscillatory activity across the brain and was successful in simultaneously reproducing empirically observed spatial and spectral patterns of alpha-band (8–12 Hz) and beta-band (15–30 Hz) activity estimated from source localized magnetoencephalography (MEG). This spectral graph model demonstrates that certain brain oscillations are emergent properties of the graph structure of the structural connectome and provides important insights towards understanding the fundamental relationship between network topology and macroscopic whole-brain dynamics. .},
+year = {2020}
+}
+
+@ARTICLE{RajVN22,
+	AUTHOR={Raj, Ashish and Verma, Parul and Nagarajan, Srikantan},   
+	TITLE={Structure-function models of temporal, spatial, and spectral characteristics of non-invasive whole brain functional imaging},      
+	JOURNAL={Frontiers in Neuroscience},      
+	VOLUME={16},           
+	YEAR={2022},      
+	URL={https://www.frontiersin.org/articles/10.3389/fnins.2022.959557},       
+	DOI={10.3389/fnins.2022.959557},      
+	ISSN={1662-453X},   
+   	ABSTRACT={We review recent advances in using mathematical models of the relationship between the brain structure and function that capture features of brain dynamics. We argue the need for models that can jointly capture temporal, spatial, and spectral features of brain functional activity. We present recent work on spectral graph theory based models that can accurately capture spectral as well as spatial patterns across multiple frequencies in MEG reconstructions.}
+}
